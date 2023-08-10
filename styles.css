@@ -1,2 +1,37 @@
 
 /* Your CSS Code here. */
+* {
+	hright:100%;
+	width:100%;
+}
+html , body{
+	padding:0px;
+	margin:0px;
+	background-color:#dadada
+}
+.portfolio{
+	height:30px;
+	width:100%;
+	background-color:#aaaaaa;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	padding:10px;
+}
+
+.right{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+}
+img{
+	height:50vh;
+	width:50vw;
+	border-radius:10%;
+}
+.main{
+	display:flex;
+	justify-content:space-evenly;
+	align-items:center;
+	padding:20px;
+}
